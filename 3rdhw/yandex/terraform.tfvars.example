@@ -1,0 +1,3 @@
+folder_id   = "b1g60j7rdble619jl7vo"
+bucket_name = "moray-netorg-20260628"
+kms_key_name = "hw3-bucket-key"
