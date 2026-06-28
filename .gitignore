@@ -1,21 +1,29 @@
-# Terraform
+# Net-org: домашние задания Netology
+# Структура: 1sthw/, 2ndhw/, ... — в каждой свои yandex/, aws/, README.md
+
+# Terraform (любая вложенность: 1sthw/yandex/, 2ndhw/aws/, ...)
 **/.terraform/
 **/.terraform.lock.hcl
 **/terraform.tfstate
 **/terraform.tfstate.*
+**/.terraform.tfstate.lock.info
 **/terraform.tfvars
+**/*.auto.tfvars
+**/terraform.tfvars.json
 **/crash.log
 **/override.tf
 **/override.tf.json
 **/*_override.tf
 **/*_override.tf.json
 
-# SSH keys
+# Ключи и секреты
 *.pem
-id_rsa
-id_ed25519
+**/id_rsa
+**/id_ed25519
+**/sa-key.json
+**/*-key.json
 
-# IDE
+# IDE и окружение
 .idea/
 .venv/
 *.iml
