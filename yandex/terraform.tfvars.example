@@ -1,0 +1,4 @@
+folder_id           = "b1gxxxxxxxxxxxxxxxx"
+zone                = "ru-central1-a"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+vm_user             = "ubuntu"

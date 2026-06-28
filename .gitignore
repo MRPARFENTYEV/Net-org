@@ -1,0 +1,25 @@
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/terraform.tfvars
+**/crash.log
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# SSH keys
+*.pem
+id_rsa
+id_ed25519
+
+# IDE
+.idea/
+.venv/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
